@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    font-family: Arial, sans-serif;
+    border: border-box;
+    font-size: medium;
+}
+
+.navbar{
+    height: 56px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.box{
+    height: 56px;
+    width: 169px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-menu{
+    background-image: url("menu.png");
+    background-size: cover;
+    height:24px;
+    width: 24px;
+    color: black; 
+}
+
+.logo{
+    background-image: url("youtubelogo.svg");
+    background-size: cover;
+    height: 20px;
+    width: 90px;
+}
+
+
+.nav-search{
+    background-color: transparent;
+    display: flex;
+    height: 40px;
+    width: 640px;
+    align-items: center;
+    border-radius: 10px;
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+input{
+    height: 40px;
+    width: 430px;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+
+}
+
+.search-icon{
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 24px;
+    width: 64px;
+    border-radius: 10%;
+}
+
+.search-voice {
+    background-image: url("voice-search.png");
+    background-repeat: no-repeat;
+    color: white;
+    height: 10px;
+    width: 10px;
+}
+
+.box2{
+    height: 40px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-upload{
+    background-image: url("upload.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.nav-notification{
+    background-image: url("notification.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+.nav-profile{
+    background-image: url("anil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 34px;
+    width: 60px;
+}
